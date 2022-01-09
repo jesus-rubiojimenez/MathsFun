@@ -8,7 +8,7 @@ def ncklog(n, k):
     # returns the natural logarithm of the binomial coefficient c(n, k), i.e., log[c(n, k)].
 
     coefficient = 0
-    for x in range(k + 1, n + 1):  # Actual range: [k + 1, n]
+    for x in range(k + 1, n + 1):
         coefficient += np.log(x) - np.log(x - k)
 
     return coefficient
