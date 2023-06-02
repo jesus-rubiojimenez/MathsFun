@@ -6,8 +6,8 @@ def ncklog(n, k):
     # University of Exeter
     # J.Rubio-Jimenez@exeter.ac.uk
     #
-    # Created: Jan 2022
-    # Last modified: Feb 2022
+    # Created: January 2022
+    # Modified: June 2023
     #
     # Given the integers n and k, with k in [n, 0),
     #
